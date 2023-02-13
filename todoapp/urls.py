@@ -8,6 +8,6 @@ urlpatterns = [
     path('cbvhome/',views.Tasklistview.as_view(),name='cbvhome'),
     path('cbvdetails/<int:pk>/',views.Taskdetailview.as_view(),name='cbvdetails'),
     path('cbvupdate/<int:pk>/',views.TaskUpdateview.as_view(),name='cbvupdate'),
-    path('cbvdelete/<int:pk>/',views.TaskDeleteview.as_view(),name='cbvdelete'),
+     path('cbvdelete/<int:pk>/',views.TaskDeleteview.as_view(),name='cbvdelete'),
 
 ]
